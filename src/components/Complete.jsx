@@ -9,7 +9,8 @@ const Complete = ({ setComplete, cardData }) => {
 	}
 
 	return (
-		<div className="w-full tablet:w-[300px] flex flex-col gap-y-4 justify-center items-center mr-20">
+		<div className="w-[340px] mx-auto sm:min-w-[460px] tablet:min-w-[200px] h-full tablet:w-[300px] flex flex-col gap-y-4 justify-center items-center tablet:mx-0 tablet:mr-0 min-[950px]:mr-16
+		tablet:mt-0">
 			<div>
 				<img src={comp} alt="complete" />
 			</div>
