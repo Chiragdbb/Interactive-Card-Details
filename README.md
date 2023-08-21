@@ -25,7 +25,7 @@ This is a solution to the [Interactive card details form challenge on Frontend M
 ### Links
 
 -   Solution URL: [Github](https://github.com/Chiragdbb/Interactive-Card-Details)
--   Live Site URL: [Here](https://interactive-card-details-dbb.netlify.app)
+-   Live Site URL: [Here](https://interactive-card-details-chiragdbb.netlify.app/)
 
 ## My process
 

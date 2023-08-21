@@ -1,5 +1,9 @@
 import { useState } from "react";
 import Complete from "./Complete";
+import logo from "../assets/card-logo.svg"
+import cardFront from "../assets/bg-card-front.png"
+import cardBack from "../assets/bg-card-back.png"
+
 
 const CardDetails = () => {
 	const [cardData, setCardData] = useState({
@@ -49,10 +53,10 @@ const CardDetails = () => {
 				<div className="relative bottom-14 tablet:bottom-0 z-10 w-[275px] tablet:w-[360px] h-fit order-1 tablet:-order-none">
 					<img
 						className="w-[52px] tablet:w-auto absolute tablet:left-6 left-4 top-4 tablet:top-6 z-20"
-						src="/src/assets/card-logo.svg"
+						src={logo}
 						alt="card-logo"
 					/>
-					<img src="/src/assets/bg-card-front.png" alt="card-front" />
+					<img src={cardFront} alt="card-front" />
 					<div className="w-full text-white2 absolute bottom-2 left-0 z-50 px-5 tablet:px-6 py-2 tablet:py-4">
 						<p className="max-w-full font-medium text-lg tablet:text-2xl tracking-widest">
 							{cardData.cardNumber === ""
@@ -78,7 +82,7 @@ const CardDetails = () => {
 					</div>
 				</div>
 				<div className="w-[280px] tablet:w-[360px] relative self-end z-0">
-					<img src="/src/assets/bg-card-back.png" alt="card-back" />
+					<img src={cardBack} alt="card-back" />
 					<p className="absolute right-[2.1rem] top-[3.9rem] tablet:right-12 tablet:top-[5.3rem] text-white z-50">
 						{cardData.cvc === "" ? "000" : cardData.cvc}
 					</p>

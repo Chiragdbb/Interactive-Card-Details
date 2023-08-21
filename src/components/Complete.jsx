@@ -1,3 +1,5 @@
+import comp from "../assets/icon-complete.svg"
+
 const Complete = ({ setComplete, cardData }) => {
 	function clickHandler() {
 		setComplete(false);
@@ -9,7 +11,7 @@ const Complete = ({ setComplete, cardData }) => {
 	return (
 		<div className="w-full tablet:w-[300px] flex flex-col gap-y-4 justify-center items-center mr-20">
 			<div>
-				<img src="/src/assets/icon-complete.svg" alt="complete" />
+				<img src={comp} alt="complete" />
 			</div>
 			<h1 className="text-2xl font-semibold tracking-wider mt-4">
 				THANK YOU !
