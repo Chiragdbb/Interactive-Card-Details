@@ -1,12 +1,15 @@
-import './index.css'
+import CardDetails from "./components/CardDetails";
+import "./index.css";
 
 function App() {
-
-  return (
-    <div>
-      <h1>Interactive Card</h1>
-    </div>
-  )
+	return (
+		<div className="max-w-screen min-h-screen relative z-10 font-spaceGrotesk">
+			<div className="change-img"></div>
+			<div>
+				<CardDetails />
+			</div>
+		</div>
+	);
 }
 
-export default App
+export default App;

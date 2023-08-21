@@ -6,11 +6,10 @@ export default {
 			fontFamily: {
 				spaceGrotesk: "Space Grotesk",
 			},
-			gradientColorStops: {
+			colors: {
 				grad1: "hsl(249, 99%, 64%)",
 				grad2: "hsl(278, 94%, 30%)",
-			},
-			colors: {
+				gradient1: "hsl(249, 99%, 64%) to hsl(278, 94%, 30%)",
 				red2: "hsl(0, 100%, 66%)",
 				white2: "hsl(0, 0%, 100%)",
 				lightGrayishViolet: "hsl(270, 3%, 87%)",
@@ -19,6 +18,9 @@ export default {
 			},
 			fontSize: {
 				bodyNormal: "18px",
+			},
+			screens: {
+				tablet: "850px",
 			},
 		},
 	},
